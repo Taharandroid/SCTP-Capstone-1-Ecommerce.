@@ -49,18 +49,35 @@ Summary: Key improvements and suggestion:
  - Prioritizing Home and Lifestyle categories to align with consumer preferences.
  - These actions will optimize our product mix, enhance engagement, and ensure long-term growth.
 
+**Project Work Flow**
+Start --> Understand/Study the Data --> Cleaning Data using tools Pyton & Power BI, Check and Formating Each Colomn(eg, date,price) --> Add Column  using Power BI Model(appling DAX) --> Reasearch on Shopee And the Latin American Region -->Define The Visual and Key points --> Presentation
+
 **Data Transformation**
-Remove duplicates,errors, (no duplicates found in dataset) using pyton *import pandas* Checking for missing values, Removing duplicates, Checking for outliers in specific columns 
+
+Remove duplicates & errors (no duplicates found in dataset) 
+
+using pyton *import pandas* Checking for missing values, Removing duplicates, Checking for outliers in specific columns 
 
 Formatted Date to Singapore format English (dd/mm/yy)
 
 Combine column First name and Last name
 
-Added columns to calculate actual days of delivery and verification
-Added column to determine if delivery is on time
-Formatted text under the price columns to currency ($)
-Added columns to determine rows with numerical freight weight and freight cost
-Added columns to proper text for selected columns
-Added columns to group countries into regions and sub regions
-Remove columns with data dated from 2006 to 2010
-Remove columns without freight weight and freight cost data
+Added columns to calculate Total Purchase Price 
+
+Added columns to calculate Delivery Time (days)
+
+Added column to Segments Products= Fashion,Electronis, Furniture 
+
+Formatted columns to currency ($) for selected the price columns 
+
+Added Table for Hierarchy Date
+
+Formatted columns to proper text for selected columns
+
+Formatted columns to Numerical for selected columns
+
+Added column for Customers Spenders = High and Regular Spenders
+
+
+
+
