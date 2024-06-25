@@ -55,9 +55,9 @@ Start --> Understand/Study the Data --> Cleaning Data using tools Pyton & Power 
 
 **Data Transformation**
 
-Remove duplicates & errors (no duplicates found in dataset) 
+Remove duplicates (no duplicates found in dataset) 
 
-using pyton *import pandas* Checking for missing values, Removing duplicates, Checking for outliers in specific columns 
+Using jupyter python *import pandas* Checking for missing values, Removing duplicates, Checking for outliers in specific columns 
 
 Formatted Date to Singapore format English (dd/mm/yy)
 
