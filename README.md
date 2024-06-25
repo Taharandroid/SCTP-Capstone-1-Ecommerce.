@@ -50,7 +50,8 @@ Summary: Key improvements and suggestion:
  - These actions will optimize our product mix, enhance engagement, and ensure long-term growth.
 
 **Project Work Flow**
-Start --> Understand/Study the Data --> Cleaning Data using tools Pyton & Power BI, Check and Formating Each Colomn(eg, date,price) --> Add Column  using Power BI Model(appling DAX) --> Reasearch on Shopee And the Latin American Region -->Define The Visual and Key points --> Presentation
+
+Start --> Understand/Study the Data --> Cleaning Data using tools Pyton & Power BI, Check and Formating Each Colomn(eg, date,price) --> Add Column using Power BI Model(appling DAX) --> Reasearch on Shopee and the Latin American Region -->Define The Visual and Key points --> Presentation--> End
 
 **Data Transformation**
 
