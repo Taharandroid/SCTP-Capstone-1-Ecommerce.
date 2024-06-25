@@ -8,7 +8,7 @@
 
 **Description of Dataset**
 
-The dataset provided for this capstone project is a subset of data on for a project of Shopee, American Latin Region. 
+The dataset provided for this capstone project is a subset of data on for a project of Shopee, American Latin Region 3rd Quater of 2019 - End of 2022. 
 
 The data provided contains all the required detail such as orders, customer demographics, products and the segment information, quantity, shipping cost 
 
@@ -20,7 +20,7 @@ Assume that the company is looking to
 
  - Increase revenue as per the information present.
 
-**Description of Dashboard**
+**Description of Dashboard / Analysis and Inside**
 
 1st DashBoard 
 
@@ -48,3 +48,19 @@ Summary: Key improvements and suggestion:
  - Capitalizing on peak sales months (September, October, November, December).
  - Prioritizing Home and Lifestyle categories to align with consumer preferences.
  - These actions will optimize our product mix, enhance engagement, and ensure long-term growth.
+
+**Data Transformation**
+Remove duplicates,errors, (no duplicates found in dataset) using pyton *import pandas* Checking for missing values, Removing duplicates, Checking for outliers in specific columns 
+
+Formatted Date to Singapore format English (dd/mm/yy)
+
+Combine column First name and Last name
+
+Added columns to calculate actual days of delivery and verification
+Added column to determine if delivery is on time
+Formatted text under the price columns to currency ($)
+Added columns to determine rows with numerical freight weight and freight cost
+Added columns to proper text for selected columns
+Added columns to group countries into regions and sub regions
+Remove columns with data dated from 2006 to 2010
+Remove columns without freight weight and freight cost data
